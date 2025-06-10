@@ -75,15 +75,12 @@ function DateCounter() {
         />
         <span>{step}</span>
       </div>
-
       <div>
         <button onClick={dec}>-</button>
         <input value={count} onChange={defineCount} />
         <button onClick={inc}>+</button>
       </div>
-
       <p>{date.toDateString()}</p>
-
       <div>
         <button onClick={reset}>Reset</button>
       </div>
